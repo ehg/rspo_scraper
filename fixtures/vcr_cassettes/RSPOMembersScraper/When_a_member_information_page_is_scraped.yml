@@ -1,0 +1,375 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://rspo.org:80/?q=om/1993
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      etag: 
+      - "\"fc21be4f9b74b90f766a2d134c2cfe51\""
+      x-powered-by: 
+      - PHP/5.2.9
+      expires: 
+      - Sun, 19 Nov 1978 05:00:00 GMT
+      last-modified: 
+      - Wed, 30 Nov 2011 18:24:31 GMT
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.19 (Unix) mod_ssl/2.2.19 OpenSSL/0.9.8e-fips-rhel5 mod_mono/2.6.3 mod_bwlimited/1.4 PHP/5.2.9
+      date: 
+      - Wed, 30 Nov 2011 18:27:43 GMT
+      set-cookie: 
+      - SESSa1abfe4151103c4c974e1707364dc448=6ae5cc441e1ca3cd93826f72de26761d; expires=Fri, 23-Dec-2011 22:01:03 GMT; path=/; domain=.rspo.org
+      cache-control: 
+      - must-revalidate
+      transfer-encoding: 
+      - chunked
+    body: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/2002/REC-xhtml1-20020801/DTD/xhtml1-transitional.dtd\">\n\
+      <html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n\
+      <head>\n\
+      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\
+      <meta property=\"og:image\" content=\"http://www.rspo.org/sites/all/themes/rspo/images/logo.jpg\" />\n  <title>AAA Oils &amp; Fats Pte. Ltd. | Roundtable on Sustainable Palm Oil (RSPO)</title>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\
+      <link rel=\"shortcut icon\" href=\"/sites/default/files/favicon.gif\" type=\"image/x-icon\" />\n  <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/default/files/css/css_c9dd5e0ed3cf578b7fbdee72242478dd.css\" />\n  <!--[if IE]>\n    <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/rspo/ie.css\"/>\n  <![endif]-->\n  <!--[if IE 6]>\n    <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/sites/all/themes/rspo/ie6.css\"/>\n  <![endif]-->\n  <script type=\"text/javascript\" src=\"/sites/default/files/js/js_7c95baf60456bb89caf53dab53ccc193.js\"></script>\n\
+      <script type=\"text/javascript\">\n\
+      <!--//--><![CDATA[//><!--\n\
+      jQuery.extend(Drupal.settings, { \"basePath\": \"/\", \"jstools\": { \"cleanurls\": false, \"basePath\": \"/\" }, \"activemenu\": { \"#block-book-0\": \"activemenu/book\", \"#block-menu-secondary-links\": \"activemenu/menu\", \"#block-menu-primary-links\": \"activemenu/menu\", \"#block-menu-menu-topmenu\": \"activemenu/menu\", \"#block-user-1\": \"activemenu/menu\" }, \"googleanalytics\": { \"trackOutgoing\": 1, \"trackMailto\": 1, \"trackDownload\": 1, \"trackDownloadExtensions\": \"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip\" }, \"lightbox2\": { \"rtl\": \"0\", \"file_path\": \"/(\\\\w\\\\w/)sites/default/files\", \"default_image\": \"/sites/all/modules/lightbox2/images/brokenimage.jpg\", \"border_size\": 10, \"font_color\": \"000\", \"box_color\": \"fff\", \"top_position\": \"\", \"overlay_opacity\": \"0.8\", \"overlay_color\": \"000\", \"disable_close_click\": 1, \"resize_sequence\": 0, \"resize_speed\": 400, \"fade_in_speed\": 400, \"slide_down_speed\": 200, \"use_alt_layout\": 1, \"disable_resize\": 0, \"disable_zoom\": 0, \"force_show_nav\": 0, \"show_caption\": 1, \"loop_items\": 1, \"node_link_text\": \"View Image Details\", \"node_link_target\": 0, \"image_count\": \"Image !current of !total\", \"video_count\": \"Video !current of !total\", \"page_count\": \"Page !current of !total\", \"lite_press_x_close\": \"press \\x3ca href=\\\"#\\\" onclick=\\\"hideLightbox(); return FALSE;\\\"\\x3e\\x3ckbd\\x3ex\\x3c/kbd\\x3e\\x3c/a\\x3e to close\", \"download_link_text\": \"\", \"enable_login\": false, \"enable_contact\": false, \"keys_close\": \"c x 27\", \"keys_previous\": \"p 37\", \"keys_next\": \"n 39\", \"keys_zoom\": \"z\", \"keys_play_pause\": \"32\", \"display_image_size\": \"original\", \"image_node_sizes\": \"(\\\\.thumbnail)\", \"trigger_lightbox_classes\": \"img.inline,img.thumbnail, img.image-thumbnail\", \"trigger_lightbox_group_classes\": \"\", \"trigger_slideshow_classes\": \"\", \"trigger_lightframe_classes\": \"\", \"trigger_lightframe_group_classes\": \"\", \"custom_class_handler\": 0, \"custom_trigger_classes\": \"\", \"disable_for_gallery_lists\": 1, \"disable_for_acidfree_gallery_lists\": true, \"enable_acidfree_videos\": true, \"slideshow_interval\": 5000, \"slideshow_automatic_start\": true, \"slideshow_automatic_exit\": true, \"show_play_pause\": true, \"pause_on_next_click\": false, \"pause_on_previous_click\": true, \"loop_slides\": false, \"iframe_width\": 600, \"iframe_height\": 400, \"iframe_border\": 0, \"enable_video\": 0 }, \"thickbox\": { \"close\": \"Close\", \"next\": \"Next \\x3e\", \"prev\": \"\\x3c Prev\", \"esc_key\": \"or Esc Key\", \"next_close\": \"Next / Close on last\", \"image_count\": \"Image !current of !total\" } });\n\
+      //--><!]]>\n\
+      </script>\n\
+      <script type=\"text/javascript\">\n\
+      <!--//--><![CDATA[//><!--\n\n\
+      \t    addthis_pub = 'rspo';\n\
+      \t    addthis_logo = 'http://host.rspo.org/~rsponew/sites/default/files/rspo.png';\n\
+      \t    addthis_logo_background = 'EFEFFF';\n\
+      \t    addthis_logo_color = '666699';\n\
+      \t    addthis_brand = 'RSPO';\n\
+      \t    addthis_options = 'facebook, twitter, google_plusone, googlebuzz, gmail, printfriendly, more';\n\
+      \t    addthis_disable_flash = 'false';\n\
+      \t\n\
+      //--><!]]>\n\
+      </script>\n\
+      <script src=\"http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAr0tSaHzUHeLFrxFa0Q1sgxSPyEeJvd5PhiUz10mEA8YWFLZM-BQ0YoFil2Wq1aRlRTWXUbYriYpmcg\" type=\"text/javascript\"></script>\n    <script type=\"text/javascript\">\n\n    function initialize() {\n      if (GBrowserIsCompatible()) {\n        var map = new GMap2(document.getElementById(\"map_canvas\"));\n        map.setUIToDefault();\n        map.setCenter(new GLatLng(-0.3,104.5), 4);\n        \n        var baseIcon = new GIcon(G_DEFAULT_ICON);\n    \n    \n        // Creates a marker whose info window displays the letter corresponding\n        // to the given index.\n        function createMarker(point, index) {\n          markerOptions = { icon:new GIcon(baseIcon)};\n          var marker = new GMarker(point, markerOptions);\n    \n          GEvent.addListener(marker, \"click\", function() {\n            marker.openInfoWindowHtml(index);\n          });\n          return marker;\n        }\n    \n        var point = new GLatLng(3.127939, 101.678842);\n        var index = \"<b>RSPO Secretariat</b><br/><br/>Unit A-33A-2, Menara UOA Bangsar, <br/>No.5 Jalan Bangsar Utama 1,<br/>59000 Kuala Lumpur, Malaysia<br/><br/>General Line: +603-2302 1500<br/>Membership Line: +6016 213 2053\";\n    \n        map.addOverlay(createMarker(point, index));\n        \n            var point = new GLatLng(-6.213611, 106.820000);\n        var index = \"<b>RSPO Indonesia Liaison Office (RILO)</b><br/><br/>Mayapada Tower 9th Floor, <br/>Jalan Jendral Sudirman Kav. 28,<br/>Jakarta 12920, Indonesia<br/><br/>Telephone: +62 21 5794 0222<br/>Fax: +62 21 5794 0223\";\n        map.addOverlay(createMarker(point, index));      \n      }\n    }\n    </script>\n   <style type='text/css'>\n   #header{ background-image: url('/sites/all/themes/rspo/images/rspo04.png') }  \t    </style>\n\n <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/files/local.css\" />\n \n\
+      </head>\n\n\
+      <body  class=\"not-front not-logged-in page-node node-type-ordinary two-sidebars\">\n\
+      <div id=\"wrapper\">\n\
+      \t<div id='topbar'> \n\
+      \t\t<div id='webtitle'>RSPO - PROMOTING THE GROWTH AND USE OF SUSTAINABLE PALM OIL </div>\n\
+      \t\t\t\t<div id=\"topmenu\">\n\
+      \t\t\t\t\t\t\t\t<ul class=\"links\"><li class=\"menu-117 first\"><a href=\"/\" title=\"\">Home</a></li>\n\
+      <li class=\"menu-118\"><a href=\"/?q=page/3\" title=\"Contact Us\">Contact Us</a></li>\n\
+      <li class=\"menu-1140\"><a href=\"/?q=page/494\" title=\"Accessibilty issues\">Privacy and Accessibility</a></li>\n\
+      <li class=\"menulogin last\"><a href=\"/?q=user/login\">Login</a></li>\n\
+      </ul>\t\t\t\t</div>\n\
+      \t</div>\n\
+      </div>\n\
+      <div id=\"primary\">\n\
+      \t<div id=\"wrapper\">\n\
+      \t\t<ul class=\"nice-menu nice-menu-down\" id=\"nice-menu-0\"><li id=\"menu-310\" class=\"menuparent menu-path-node-9\"><a href=\"/?q=page/9\" title=\"About RSPO\">About RSPO</a><ul><li id=\"menu-311\" class=\"menuparent menu-path-node-9\"><a href=\"/?q=page/9\" title=\"\">The RSPO Story</a><ul><li id=\"menu-1884\" class=\"menu-path-node-789\"><a href=\"/?q=page/789\" title=\"About Sustainable Palm Oil\">Sustainable Palm Oil</a></li>\n\
+      <li id=\"menu-145\" class=\"menu-path-node-9\"><a href=\"/?q=page/9\" title=\"What is RSPO?\">Who is RSPO?</a></li>\n\
+      <li id=\"menu-313\" class=\"menu-path-node-16\"><a href=\"/?q=page/16\" title=\"Vision and Mission of RSPO\">Vision, Mission and Aspirations</a></li>\n\
+      <li id=\"menu-146\" class=\"menu-path-node-10\"><a href=\"/?q=page/10\" title=\"History\">History of RSPO</a></li>\n\
+      <li id=\"menu-2215\" class=\"menu-path-node-896\"><a href=\"/?q=page/896\" title=\"RSPO Statutes, By-Laws and Code of Conduct\">RSPO Statutes &amp; By-Laws</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1804\" class=\"menuparent menu-path-node-576\"><a href=\"/?q=page/576\" title=\"RSPO Structure\">RSPO Organisation</a><ul><li id=\"menu-1142\" class=\"menu-path-node-496\"><a href=\"/?q=page/496\" title=\"Background and Organisational Chart\">Background &amp; Organisation Chart</a></li>\n\
+      <li id=\"menu-1143\" class=\"menu-path-node-497\"><a href=\"/?q=page/497\" title=\"Executive Board &amp; Profiles\">Executive Board</a></li>\n\
+      <li id=\"menu-1806\" class=\"menu-path-node-601\"><a href=\"/?q=node/601\" title=\"Secretariat &amp; RILO Profiles\">Secretariat</a></li>\n\
+      <li id=\"menu-1145\" class=\"menu-path-node-499\"><a href=\"/?q=page/499\" title=\"Finance\">Finances</a></li>\n\
+      <li id=\"menu-1186\" class=\"menu-path-node-539\"><a href=\"/?q=page/539\" title=\"Standards &amp; Certification Working Group\">EB Working Group 1: Standards &amp; Certification</a></li>\n\
+      <li id=\"menu-1187\" class=\"menu-path-node-540\"><a href=\"/?q=node/540\" title=\"Trade &amp; Traceability Working Group\">EB Working Group 2: Trade &amp; Traceability</a></li>\n\
+      <li id=\"menu-1188\" class=\"menu-path-node-541\"><a href=\"/?q=node/541\" title=\"Communications &amp; Claims Working Group\">EB Working Group 3: Communications &amp; Claims</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1200\" class=\"menuparent menu-path-node-550\"><a href=\"/?q=page/550\" title=\"Minutes of General Assembly and EB Meetings\">Minutes of General Assembly and EB Meetings</a><ul><li id=\"menu-1192\" class=\"menu-path-node-543\"><a href=\"/?q=page/543\" title=\"Minutes of General Assembly\">Minutes of Annual General Assembly (GA)</a></li>\n\
+      <li id=\"menu-1191\" class=\"menu-path-node-542\"><a href=\"/?q=page/542\" title=\"Minutes of EB Meetings\">Minutes of Executive Board (EB) Meetings</a></li>\n\
+      <li id=\"menu-1924\" class=\"menu-path-node-893\"><a href=\"/?q=page/893\" title=\"Reports\">Reports</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1925\" class=\"menu-path-node-894\"><a href=\"/?q=page/894\" title=\"Position Statements\">News Room</a></li>\n\
+      <li id=\"menu-1201\" class=\"menu-path-node-551\"><a href=\"/?q=node/551\" title=\"RSPO Newsletters (Members only)\">Our Newsletters</a></li>\n\
+      <li id=\"menu-1151\" class=\"menu-path-node-504\"><a href=\"/?q=page/504\" title=\"Get Involved\">Get Involved</a></li>\n\
+      <li id=\"menu-1886\" class=\"menu-path-node-791\"><a href=\"/?q=page/jobs\" title=\"Job Vacancies\">Job Vacancies</a></li>\n\
+      <li id=\"menu-1148\" class=\"menu-path-node-3\"><a href=\"/?q=page/3\" title=\"Contact Us\">Contact Us</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1136\" class=\"menuparent menu-path-node\"><a href=\"/?q=node\" title=\"News of the RSPO and sustainable palm oil\">News</a><ul><li id=\"menu-1197\" class=\"menu-path-event\"><a href=\"/?q=event\" title=\"RSPO Events Calendar\">RSPO Events Calendar</a></li>\n\
+      <li id=\"menu-4849\" class=\"menu-path-node-1286\"><a href=\"/?q=content/rspo-newsletter\" title=\"RSPO Newsletter\">RSPO Newsletter</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-270\" class=\"menuparent menu-path-node-502\"><a href=\"/?q=page/502\" title=\"Members of RSPO\">Members</a><ul><li id=\"menu-1901\" class=\"menuparent menu-path-node-502\"><a href=\"/?q=page/502\" title=\"Membership\">Membership</a><ul><li id=\"menu-1149\" class=\"menu-path-node-502\"><a href=\"/?q=page/502\" title=\"Why Become a Member?\">Why Become a Member?</a></li>\n\
+      <li id=\"menu-1888\" class=\"menu-path-node-793\"><a href=\"/?q=page/793\" title=\"Rights of Members\">Rights of Members</a></li>\n\
+      <li id=\"menu-1150\" class=\"menu-path-node-503\"><a href=\"/?q=page/503\" title=\"Expectation from Members\">Expectations Of Membership including Annual Reports</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-2214\" class=\"menuparent menu-path-node-895\"><a href=\"/?q=page/895\" title=\"Members Of RSPO\">Members Of RSPO</a><ul><li id=\"menu-1887\" class=\"menu-path-node-792\"><a href=\"/?q=page/792\" title=\"Search Members\">Search Members</a></li>\n\
+      <li id=\"menu-2519\" class=\"menu-path-terminatedlist\"><a href=\"/?q=terminatedlist\" title=\"Membership Terminated\">Membership Terminated</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-304\" class=\"menu-path-node-13\"><a href=\"/?q=page/13\" title=\"Membership Application\">How to Apply</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1137\" class=\"menuparent menu-path-node-491\"><a href=\"/?q=page/491\" title=\"Certification\">Certification</a><ul><li id=\"menu-1156\" class=\"menu-path-node-509\"><a href=\"/?q=page/509\" title=\"Why RSPO Certification?\">Why RSPO Certification?</a></li>\n\
+      <li id=\"menu-1155\" class=\"menuparent menu-path-node-508\"><a href=\"/?q=page/508\" title=\"RSPO P&amp;C Certification System\">Grower Certification</a><ul><li id=\"menu-1157\" class=\"menu-path-node-510\"><a href=\"/?q=page/510\" title=\"How to be RSPO Certified?\">How to be RSPO Certified?</a></li>\n\
+      <li id=\"menu-2524\" class=\"menu-path-assessment\"><a href=\"/?q=assessment\" title=\"RSPO P&amp;C Assessment Notification\">RSPO P&amp;C Assessment Notification</a></li>\n\
+      <li id=\"menu-2525\" class=\"menu-path-assessment_progress\"><a href=\"/?q=assessment_progress\" title=\"RSPO P&amp;C Assessment Progress\">RSPO P&amp;C Assessment Progress</a></li>\n\
+      <li id=\"menu-1167\" class=\"menu-path-node-520\"><a href=\"/?q=page/520\" title=\"CPO Mills Certified &amp; CSPO Outputs\">Certified Growers</a></li>\n\
+      <li id=\"menu-1165\" class=\"menu-path-node-518\"><a href=\"/?q=page/518\" title=\"List of Certification Audits &amp; Assessments (Past)\">Past Audits (2008 &amp; 2009)</a></li>\n\
+      <li id=\"menu-2518\" class=\"menu-path-certifiedlist\"><a href=\"/?q=certifiedlist\" title=\"List of Companies with RSPO Certified Palm Oil\">List of Companies with RSPO Certified Palm Oil</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1163\" class=\"menuparent menu-path-node-516\"><a href=\"/?q=page/516\" title=\"RSPO Supply Chain Certification System\">Supply Chain Certification</a><ul><li id=\"menu-2564\" class=\"menu-path-sc_certification\"><a href=\"/?q=sc_certification\" title=\"Status of Interim Approvals\">Status of Interim Approvals</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1159\" class=\"menu-path-node-512\"><a href=\"/?q=page/512\" title=\"List of Certification Bodies\">RSPO Approved Certification Bodies for P&amp;C Certification</a></li>\n\
+      <li id=\"menu-4845\" class=\"menu-path-node-1512\"><a href=\"/?q=page/1512\" title=\"RSPO Approved Certification Bodies for Supply Chain Certification\">RSPO Approved Certification Bodies for Supply Chain Certification</a></li>\n\
+      <li id=\"menu-5941\" class=\"menu-path-node-2253\"><a href=\"/?q=page/2253\" title=\"RSPO Approved HCV Assessors\">RSPO Approved HCV Assessors</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1138\" class=\"menuparent menu-path-node-492\"><a href=\"/?q=page/492\" title=\"RSPO Projects and Initiatives\">Projects &amp; Work Groups</a><ul><li id=\"menu-1160\" class=\"menuparent menu-path-node-513\"><a href=\"/?q=page/513\" title=\"RSPO Principles &amp; Criteria for Sustainable Palm Oil (RSPO P&amp;C)\">Principles &amp; Criteria for Sustainable Palm Oil</a><ul><li id=\"menu-1900\" class=\"menu-path-node-807\"><a href=\"/?q=page/807\" title=\"Current Governance\">History and Development of RSPO P&amp;C</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1168\" class=\"menuparent menu-path-node-521\"><a href=\"/?q=page/521\" title=\"National Implementation and Interpretation of the P&amp;C\">National Implementation and Interpretation of the P&amp;C</a><ul><li id=\"menu-1169\" class=\"menu-path-node-522\"><a href=\"/?q=page/522\" title=\"Colombia National Interpretation Working Group\">Colombia National Interpretation</a></li>\n\
+      <li id=\"menu-1170\" class=\"menu-path-node-523\"><a href=\"/?q=page/523\" title=\"Ghana National Interpretation Working Group\">Ghana National Interpretation</a></li>\n\
+      <li id=\"menu-1171\" class=\"menu-path-node-524\"><a href=\"/?q=page/524\" title=\"Indonesia National Interpretation Working Group\">Indonesia National Interpretation</a></li>\n\
+      <li id=\"menu-1172\" class=\"menu-path-node-525\"><a href=\"/?q=page/525\" title=\"Malaysia National Interpretation Working Group\">Malaysia National Interpretation</a></li>\n\
+      <li id=\"menu-5039\" class=\"menu-path-node-2032\"><a href=\"/?q=page/2032\" title=\"Nigeria National Interpretation\">Nigeria National Interpretation</a></li>\n\
+      <li id=\"menu-1173\" class=\"menu-path-node-526\"><a href=\"/?q=page/526\" title=\"Papua New Guinea National Interpretation Working Group\">Papua New Guinea National Interpretation</a></li>\n\
+      <li id=\"menu-1821\" class=\"menu-path-node-662\"><a href=\"/?q=page/662\" title=\"Solomon Islands National Interpretation Working Group\">Solomon Islands National Interpretation</a></li>\n\
+      <li id=\"menu-1174\" class=\"menu-path-node-527\"><a href=\"/?q=page/527\" title=\"Thailand National Interpretation Working Group\">Thailand National Interpretation</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-5905\" class=\"menuparent menu-path-node-2241\"><a href=\"/?q=page/2241\" title=\"Development of Local Indicators (LI) for RSPO certification of growers\">Local Indicators of the P&amp;C</a><ul><li id=\"menu-5906\" class=\"menu-path-node-2242\"><a href=\"/?q=page/2242\" title=\"Agropalma, Brazil LI\">Agropalma, Brazil LI</a></li>\n\
+      <li id=\"menu-5907\" class=\"menu-path-node-2243\"><a href=\"/?q=page/2243\" title=\"Daabon, Columbia LI\">Daabon, Columbia LI</a></li>\n\
+      <li id=\"menu-5939\" class=\"menu-path-node-2429\"><a href=\"/?q=page/2429\" title=\"CUC Agrivar Local Interpretation\">Agrivar Local Interpretation</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1175\" class=\"menuparent menu-path-node-528\"><a href=\"/?q=page/528\" title=\"Smallholders\">Smallholders</a><ul><li id=\"menu-1176\" class=\"menu-path-node-529\"><a href=\"/?q=page/529\" title=\"Smallholders Task Force - Updates\">Smallholders Task Force</a></li>\n\
+      <li id=\"menu-1177\" class=\"menu-path-node-530\"><a href=\"/?q=page/530\" title=\"Indonesia Smallholders Working Group\">Indonesia Smallholders Working Group</a></li>\n\
+      <li id=\"menu-1178\" class=\"menu-path-node-531\"><a href=\"/?q=page/531\" title=\"Malaysia Smallholders Working Group\">Malaysia Smallholders Working Group</a></li>\n\
+      <li id=\"menu-1161\" class=\"menu-path-node-514\"><a href=\"/?q=page/514\" title=\"Group Certification Scheme for Independent Smallholders\">Group Certification Scheme for Independent Smallholders</a></li>\n\
+      <li id=\"menu-3392\" class=\"menu-path-node-1460\"><a href=\"/?q=page/1460\" title=\"PNG Smallholders Working Group\">PNG Smallholders Working Group</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1179\" class=\"menu-path-node-532\"><a href=\"/?q=page/532\" title=\"Greenhouse Gas Working Group\">GreenHouse Gas Working Group (GHG WG2)</a></li>\n\
+      <li id=\"menu-1802\" class=\"menu-path-node-567\"><a href=\"/?q=node/567\" title=\"HCV - RSPO Indonesia Working Group\">HCV - RSPO Indonesia Working Group</a></li>\n\
+      <li id=\"menu-1182\" class=\"menu-path-node-535\"><a href=\"/?q=page/535\" title=\"New Plantings Working Group\">RSPO Procedures for New Plantings (NPP)</a></li>\n\
+      <li id=\"menu-1183\" class=\"menuparent menu-path-node-536\"><a href=\"/?q=page/536\" title=\"Biodiversity Conservation\">Biodiversity Conservation</a><ul><li id=\"menu-1184\" class=\"menu-path-node-537\"><a href=\"/?q=page/537\" title=\"Biodiversity Technical Committee \xE2\x80\x93 Members\">Biodiversity Technical Committee \xE2\x80\x93 Members</a></li>\n\
+      <li id=\"menu-1185\" class=\"menu-path-node-538\"><a href=\"/?q=page/538\" title=\"Biodiversity Conservation - Updates\">Biodiversity Conservation - Updates</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-4844\" class=\"menu-path-node-1515\"><a href=\"/?q=page/1515\" title=\"Task Group on RED\">Task Group on RED</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1139\" class=\"menuparent menu-path-node-493\"><a href=\"/?q=page/493\" title=\"Information resources\">Resource Centre</a><ul><li id=\"menu-1893\" class=\"menuparent menu-path-node-925\"><a href=\"/?q=page/925\" title=\"Roundtable Meetings on Sustainable Palm Oil (RTs)\">Roundtable Meetings on Sustainable Palm Oil (RTs)</a><ul><li id=\"menu-1892\" class=\"menuparent menu-path-node-796\"><a href=\"/?q=page/796\" title=\"RT1 Summary\">RT1</a><ul><li id=\"menu-1894\" class=\"menu-path-node-797\"><a href=\"/?q=page/797\" title=\"RT1 Proceedings and other downloads\">RT1 Proceedings and other downloads</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1895\" class=\"menuparent menu-path-node-798\"><a href=\"/?q=page/798\" title=\"RT2\">RT2</a><ul><li id=\"menu-1896\" class=\"menu-path-node-803\"><a href=\"/?q=page/803\" title=\"RT2 Proceedings\">RT2 Proceedings</a></li>\n\
+      <li id=\"menu-1897\" class=\"menu-path-node-804\"><a href=\"/?q=page/804\" title=\"RT2: Other downloads\">RT2: Other downloads</a></li>\n\
+      <li id=\"menu-1898\" class=\"menu-path-node-805\"><a href=\"/?q=page/805\" title=\"Session III - Projects and Activities\">Session III - Projects and Activities on Sustainable Palm Oil (6 October 2004)</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1899\" class=\"menuparent menu-path-node-806\"><a href=\"/?q=page/806\" title=\"RT3\">RT3</a><ul><li id=\"menu-1911\" class=\"menu-path-node-874\"><a href=\"/?q=page/874\" title=\"RT3 Proceedings\">RT3 Proceedings</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1912\" class=\"menuparent menu-path-node-875\"><a href=\"/?q=page/875\" title=\"RT4\">RT4</a><ul><li id=\"menu-1913\" class=\"menu-path-node-876\"><a href=\"/?q=page/876\" title=\"RT4 Proceedings\">RT4 Proceedings</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1914\" class=\"menu-path-node-877\"><a href=\"/?q=page/877\" title=\"RT5\">RT5</a></li>\n\
+      <li id=\"menu-1915\" class=\"menuparent menu-path-node-878\"><a href=\"/?q=page/878\" title=\"RT6\">RT6</a><ul><li id=\"menu-1916\" class=\"menu-path-node-879\"><a href=\"/?q=page/879\" title=\"Press Release: Post RT6 - 24th November 2008\">Press Release: Post RT6 - 24th November 2008</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1917\" class=\"menuparent menu-path-node-880\"><a href=\"/?q=page/880\" title=\"RT7\">RT7</a><ul><li id=\"menu-2520\" class=\"menu-path-node-913\"><a href=\"/?q=page/913\" title=\"RT7 List of Participants\">RT7 List of Participants</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-5014\" class=\"menuparent menu-path-node-1724\"><a href=\"/?q=page/1724\" title=\"RT8 Sponsors\">RT8</a><ul><li id=\"menu-5028\" class=\"menu-path-node-1110\"><a href=\"/?q=content/announcement-rt8-ga7-registration-open-and-call-annual-reports\" title=\"ANNOUNCEMENT: RT8 &amp; GA7 Registration Open and CALL for Annual Reports\">Announcement</a></li>\n\
+      <li id=\"menu-5029\" class=\"menu-path-www.rspo.eu-rt8-index.html\"><a href=\"http://www.rspo.eu/rt8/index.html\" title=\"\">Presentations</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1904\" class=\"menu-path-taxonomy-term-5\"><a href=\"/?q=category/meetings-and-minutes\" title=\"Meetings &amp; Minutes\">Meetings &amp; Minutes</a></li>\n\
+      <li id=\"menu-1553\" class=\"menuparent menu-path-node-554\"><a href=\"/?q=page/554\" title=\"RSPO Factsheets\">FAQs and Factsheets</a><ul><li id=\"menu-1189\" class=\"menu-path-node-501\"><a href=\"/?q=page/501\" title=\"FAQs\">General Information on the RSPO</a></li>\n\
+      <li id=\"menu-1889\" class=\"menu-path-node-794\"><a href=\"/?q=page/794\" title=\"Issues Related to Sustainable Palm Oil\">Issues Related to Sustainable Palm Oil</a></li>\n\
+      <li id=\"menu-1152\" class=\"menu-path-node-505\"><a href=\"/?q=page/505\" title=\"RSPO Grievance Procedure\">RSPO Grievance Procedure</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      <li id=\"menu-1906\" class=\"menu-path-taxonomy-term-4\"><a href=\"/?q=category/publication\" title=\"Publication\">Publication</a></li>\n\
+      <li id=\"menu-1199\" class=\"menuparent menu-path-node-549\"><a href=\"/?q=node/549\" title=\"Links\">Links</a><ul><li id=\"menu-1198\" class=\"menu-path-node-548\"><a href=\"/?q=node/548\" title=\"Downloads (Sustainable Palm Oil-related)\">Sustainable Agriculture Initiative (SAI) Platform Newsletters</a></li>\n\
+      <li id=\"menu-1907\" class=\"menu-path-node-870\"><a href=\"/?q=page/870\" title=\"WWF Forest Conversion News\">WWF Forest Conversion News</a></li>\n\
+      <li id=\"menu-1908\" class=\"menu-path-node-871\"><a href=\"/?q=page/871\" title=\"oilpalmworld.com\">oilpalmworld.com</a></li>\n\
+      <li id=\"menu-1909\" class=\"menu-path-node-872\"><a href=\"/?q=page/872\" title=\"Palmoil.com\">Palmoil.com</a></li>\n\
+      </ul>\n\
+      </li>\n\
+      </ul>\n\
+      </li>\n\
+      </ul>\n\
+      \t\t\t\t\t<div class=\"search-box\"><form action=\"/?q=om/1993\"  accept-charset=\"UTF-8\" method=\"post\" id=\"search-theme-form\">\n\
+      <div><div id=\"search\" class=\"container-inline\">\n  <div class=\"form-item\" id=\"edit-search-theme-form-1-wrapper\">\n <label for=\"edit-search-theme-form-1\"> </label>\n <input type=\"text\" maxlength=\"128\" name=\"search_theme_form\" id=\"edit-search-theme-form-1\" size=\"15\" value=\"\" title=\"Enter the terms you wish to search for.\" class=\"form-text\" />\n\
+      </div>\n\
+      <input type=\"submit\" name=\"op\" id=\"edit-submit\" value=\"Search\"  class=\"form-submit\" />\n\
+      <input type=\"hidden\" name=\"form_build_id\" id=\"form-e91e47887700018cb3462a8a615c444a\" value=\"form-e91e47887700018cb3462a8a615c444a\"  />\n\
+      <input type=\"hidden\" name=\"form_id\" id=\"edit-search-theme-form\" value=\"search_theme_form\"  />\n\
+      </div>\n\n\
+      </div></form>\n\
+      </div>\n\
+      \t\t\t</div>\n\
+      </div>\n\n\
+      <div id=\"header\">\n\
+      \t<div id=\"h2\" onclick=\"location.href='/';\" style=\"cursor:pointer;\" >\n\
+      \t\t\t<img src=\"/sites/all/themes/rspo/logo.png\" alt=\"Home\" />\n\
+      \t\t<!--\n\
+      \t  <h1 class='site-name'><a href=\"/\" title=\"Home\">Roundtable on Sustainable Palm Oil (RSPO)</a></h1>\n\
+      \t-->\n\
+      \t<span class=\"clear\"></span>\n\
+      \t\t<div style='position: absolute; top: 85px; width: 980px;text-align:center;'>\n\
+      \t\t\t\t\t\t<center><div class='site-slogan'>Promoting The Growth And Use of Sustainable Palm Oil</div></center>\n\
+      \t\t\t\t\t</div>\n\
+      \t</div>\n\
+      </div>\n\n\
+      <div id=\"wrapper\">\n\
+      \t\t\t<div id=\"sidebar-left\" class=\"clearfix\">\n\
+      \t\t\t<div id=\"block-block-27\" class=\"block block-block\">\n  <h2>Market Update</h2>\n\n  <div class=\"content\">\n    <p style=\"text-align: center;\"><a href=\"/?q=node/2687\"><img src=\"/files/images/charts/p10_small.png\" width=\"200px\" /></a><br /><a href=\"/?q=node/2687\"> click here for more details</a></p>  </div>\n\
+      </div>\n\
+      <div id=\"block-views-announcement-block_1\" class=\"block block-views\">\n  <h2>RSPO Announcement</h2>\n\n  <div class=\"content\">\n    <div class=\"view view-announcement view-id-announcement view-display-id-block_1 view-dom-id-1\">\n    \n  \n  \n      <div class=\"view-content\">\n      <div class=\"item-list\">\n    <ul>\n          <li class=\"views-row views-row-1 views-row-odd views-row-first\">  \n  <div class=\"views-field-title\">\n                <span class=\"field-content\"><a href=\"/?q=content/announcement-third-party-assessment-sgs-malaysia-sdn-bhd\">Announcement of third party assessment of SGS Malaysia Sdn Bhd</a></span>\n  </div>\n\
+      </li>\n          <li class=\"views-row views-row-2 views-row-even\">  \n  <div class=\"views-field-title\">\n                <span class=\"field-content\"><a href=\"/?q=content/announcement-third-party-assessment-moody-international-certification-m-sdn-bhd\">Announcement of third party assessment of Moody International Certification (M) Sdn Bhd</a></span>\n  </div>\n\
+      </li>\n          <li class=\"views-row views-row-3 views-row-odd views-row-last\">  \n  <div class=\"views-field-title\">\n                <span class=\"field-content\"><a href=\"/?q=content/announcement-third-party-assessment-bsi-group-singapore-pte-ltd\">Announcement of third party assessment of BSI Group Singapore Pte Ltd</a></span>\n  </div>\n\
+      </li>\n      </ul>\n\
+      </div>    </div>\n  \n  \n  \n      \n\
+      <div class=\"more-link\">\n  <a href=\"/?q=announcement\">\n    more  </a>\n\
+      </div>\n  \n  \n  \n\
+      </div>   </div>\n\
+      </div>\n\
+      <div id=\"block-block-18\" class=\"block block-block\">\n  <h2>RSPO Newsletter</h2>\n\n  <div class=\"content\">\n    <ul><li><a href=\"http://rspo.org/sites/default/files/RSPO%20Newsletter%20Jan-Mar%202011.pdf\">Newsletter Jan - Mar 2011</a></li><li><a href=\"http://www.rspo.org/sites/default/files/RSPO%20Newsletter_Oct-Dec%202010.pdf\">Newsletter Oct - Dec 2010</a> </li><li><a href=\"http://www.rspo.org/sites/default/files/test%20page%204_newsletter_jul-sep10.pdf\">Newsletter August 2010</a> </li><li><a href=\"http://www.rspo.org/sites/default/files/NLRSPO_ap_2010_0.pdf\">Newsletter Apr - Jun 2010</a></li></ul>  </div>\n\
+      </div>\n\
+      <div id=\"block-block-5\" class=\"block block-block\">\n  <h2>RSPO Certified</h2>\n\n  <div class=\"content\">\n    <p><span style=\"COLOR: #ff3300\"><strong><span style=\"BACKGROUND-COLOR: #ffff00\">As of To Date</span><br /></strong></span></p><p><a href=\"http://www.rspo.org/files/images/charts/p3.jpg\" rel=\"lightframe\"></a></p><p style=\"text-align: center;\"><a href=\"/files/images/charts/p3.jpg\" rel=\"lightbox\"><img src=\"http://www.rspo.org/files/images/charts/p3_small.png\" title=\"Click for bigger chart\" width=\"200\" border=\"1\" /></a>Click on the image for bigger chart</p> <table class=\"sidebartbl\" style=\"width: 194px;\" border=\"0\"><tbody><tr><td colspan=\"2\"><span style=\"COLOR: #e01ec1\"><strong>Growers Certification</strong></span></td></tr> <tr style=\"height: 15px;\"><td colspan=\"2\"><strong>Growers: 28<br /></strong></td></tr> <tr style=\"height: 15px;\"><td colspan=\"2\"><strong>Palm Oil Mills: 123<br /></strong></td></tr> <tr><td height=\"35px\"><em>Volume CSPO:</em></td> <td>5,191,340 MT</td></tr> <tr><td height=\"35px\"><em>Volume CSPK:</em></td> <td>1,210,302 MT</td></tr> <tr><td height=\"35px\"><em>Production Area:</em></td> <td>1,023,435 Ha</td></tr> <tr><td colspan=\"2\"><span style=\"FONT-SIZE: x-small\"><a href=\"http://www.rspo.org/?q=node/520\"><span style=\"COLOR: #0000ff\"><em><strong>Click here for details</strong></em></span>...</a>....</span></td></tr></tbody></table> <table class=\"sidebartbl\" style=\"width: 194px;\" border=\"0\"><tbody><tr><td colspan=\"2\"><span style=\"COLOR: #ff00ff\"><br /><strong>Supply Chain Certification</strong></span></td></tr> <tr><td height=\"30px\"><strong>Companies:</strong></td> <td>114</td></tr> <tr><td height=\"30px\"><strong>Facilities:</strong></td> <td>226</td></tr></tbody></table> <hr /><ul> <li><a href=\"http://www.rspo.org/?q=page/516\">How to be RSPO Supply Chain Certified?</a></li></ul> <hr /><p><span style=\"COLOR: #cf2faf\"><span style=\"FONT-SIZE: small\"><strong>Sell, buy or use Certified Sustainable Palm Oil &amp; Certificates ?</strong></span></span><span style=\"FONT-SIZE: medium\"><span style=\"COLOR: #000000\"><span style=\"BACKGROUND-COLOR: #ffffff\"><strong><br /></strong></span></span></span><span style=\"COLOR: #0000ff\"><strong><em>Use this <a href=\"http://www.rspo.eu/market/howtobegin/\">online tool </a>for guidance and click on a logo below<span style=\"FONT-SIZE: x-small\">&nbsp;</span></em></strong></span></p> <p><span style=\"FONT-SIZE: x-small\"><a href=\"http://www.greenpalm.org/\"><img src=\"http://www.rspo.org/sites/default/files/greenpalm.jpg\" alt=\"Greenpalm logo\" width=\"66\" height=\"66\" /></a>&nbsp;&nbsp;&nbsp;<a href=\"http://www.utzcertified.org/\"><img src=\"http://www.rspo.org/sites/default/files/utz.jpg\" width=\"68\" height=\"68\" /></a></span></p>  </div>\n\
+      </div>\n\
+      <div id=\"block-block-8\" class=\"block block-block\">\n  <h2>RSPO Resources</h2>\n\n  <div class=\"content\">\n    <ul>\n\
+      <li><a href=\"?q=page/554\">FAQs and Factsheets</a></li>\n\
+      <li><a href=\"?q=page/546\">RSPO Press Releases</a></li>\n\
+      <li><a href=\"?q=page/925\">Roundtable Meetings (RTs)</a></li>\n\
+      <li><a href=\"?q=category/meetings-and-minutes\">Minutes and Meetings</a></li>\n\
+      <li><a href=\"/?q=node/1286/\">Newsletter</a></li>\n\
+      <li><a href=\"http://www.oilpalm-biodiversity.info/\" target=\"_blank\">Biodiversity Information for Oil Palm</a></li>\n\
+      </ul>\n  </div>\n\
+      </div>\n\
+      <div id=\"block-block-12\" class=\"block block-block\">\n  <h2>Download Center</h2>\n\n  <div class=\"content\">\n    <ul><li><a href=\"?q=node/887\">Key documents</a></li><li><a href=\"?q=node/888\">Press Releases &amp; Position Statements</a></li><li><a href=\"?q=node/889\">Communication Tools</a></li><li><a href=\"/?q=page/1875\">Presentation Materials</a></li></ul>  </div>\n\
+      </div>\n\
+      \t\t</div>\n    \n    <div id=\"main\" class=\"clearfix\"><div id=\"main-inner\"><div id=\"main-inner2\">\n\
+      \t\t\t\t\t\t<div class=\"inner\">\n\
+      \t\t\t<div class=\"breadcrumb\"><a href=\"/\">Home</a></div>\t\t\t<h1 class=\"title\">AAA Oils &amp; Fats Pte. Ltd.</h1>\n\
+      \t\t\t\t\t\t\t\t\t\t\t\n\n\
+      \t\t\t<div class=\"node\">\n    <span class=\"submitted\">\n\
+      Last updated 5 September 2011 - 5:56pm</span>\n  <div class=\"content\"><div class=\"field field-type-text field-field-category\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Category:&nbsp;</div>\n                    Palm Oil Processors and Traders        </div>\n        </div>\n\
+      </div>\n\
+      <fieldset class=\"fieldgroup group-identity-organisation collapsible\"><legend>Identity of the Organisation</legend><div class=\"field field-type-text field-field-name\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Name:&nbsp;</div>\n                    AAA Oils &amp; Fats Pte. Ltd.        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-address\">\n      <div class=\"field-label\">Address:&nbsp;</div>\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                    <p>80 Raffles Place</p> <p>#50-01 Plaza I</p> <p>Singapore 048624</p>        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-registration-number\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Registration Number:&nbsp;</div>\n                    200201667C        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-parent\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Parent Company:&nbsp;</div>\n                    Talent Investment Limited        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-telephone\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Telephone:&nbsp;</div>\n                    +65-6216-9338        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-fax\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Fax:&nbsp;</div>\n                    +65-6222-7006        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-email field-field-email\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Email:&nbsp;</div>\n                    <a href=\"mailto:AnMin_Liew@asianagri.com\">AnMin_Liew@asianagri.com</a>        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-link field-field-website\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Website:&nbsp;</div>\n                    <a href=\"http://www.asianagri.com\" target=\"_blank\">http://www.asianagri.com</a>        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-country\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Country:&nbsp;</div>\n                    Singapore        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-contact-person\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Contact Person:&nbsp;</div>\n                    Liew An Min        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-designation\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Designation:&nbsp;</div>\n                    Senior Trader        </div>\n        </div>\n\
+      </div>\n\
+      </fieldset>\n\
+      <fieldset class=\"fieldgroup group-primary collapsible\"><legend>Primary Nomination of Representative</legend><div class=\"description\">Nomination of Representative(s)</div><div class=\"field field-type-text field-field-name-p\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Name:&nbsp;</div>\n                    Liew An Min        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-designation-p\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Designation:&nbsp;</div>\n                    Senior Trader        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-telephone-p\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Telephone:&nbsp;</div>\n                    +65-6216-9226        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-fax-p\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Fax:&nbsp;</div>\n                    +65-6222-7006        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-email field-field-email-p\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Email:&nbsp;</div>\n                    <a href=\"mailto:AnMin_Liew@asianagri.com\">AnMin_Liew@asianagri.com</a>        </div>\n        </div>\n\
+      </div>\n\
+      </fieldset>\n\
+      <fieldset class=\"fieldgroup group-secondary collapsible\"><legend>Secondary Nomination of Representative</legend><div class=\"field field-type-text field-field-name-s\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Name:&nbsp;</div>\n                    Marcus Phuah        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-designation-s\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Designation:&nbsp;</div>\n                    Legal Head        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-telephone-s\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Telephone:&nbsp;</div>\n                    +65-6216-9349        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-fax-s\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Fax:&nbsp;</div>\n                    +6222-7006        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-email field-field-email-s\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Email:&nbsp;</div>\n                    <a href=\"mailto:Marcus_Phuah@rgei.com\">Marcus_Phuah@rgei.com</a>        </div>\n        </div>\n\
+      </div>\n\
+      </fieldset>\n\
+      <fieldset class=\"fieldgroup group-information-orgranization\"><legend>Information on the Organisation</legend><div class=\"field field-type-text field-field-profile\">\n      <div class=\"field-label\">Brief Profile:&nbsp;</div>\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                    <p>The Company was established in 2002.&nbsp; Its principle activity is to trade edible oil and refined products.&nbsp; In 2011, the Company has 39 employees in Singapore</p>        </div>\n        </div>\n\
+      </div>\n\
+      </fieldset>\n\
+      <fieldset class=\"fieldgroup group-part2\"><legend>Please state how your organisation intends to comply with the RSPO Code of Conduct. Specifically in the following areas:</legend><div class=\"field field-type-text field-field-part2-1\">\n      <div class=\"field-label\">Question 1:&nbsp;</div>\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                    Our organization is committed to comply with the RSPO Code of Conduct, upholding the integrity, credibility and continued progress of the RSPO.  As a RSPO member, we are committed to support, promote and work towards the production, procurement and use of Sustainable Palm Oil.  We will make available accurate information to interested parties and report on progress against the Code.  We will work towards implementation and certification of the Principle and Criteria.  We will adhere strictly to the RSPO anti-trust guidelines and refrain from any behaviour which can be construed as anti-competitive practice (code 3.10)        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-part2-2\">\n      <div class=\"field-label\">Question 2:&nbsp;</div>\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                    We will ensure information provided to the interested parties are accurate and relevant personnel will be provided appropriate information that will enable them to work towards the objectives of the RSPO in their work (Code 3.4).  We will report specify a time-bound plan of working towards producing or buying certified sustainable palm oil (Code 3.8).  We will adhere strictly to the RSPO anti-trust guidelines (Code 3.10).        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-part2-3\">\n      <div class=\"field-label\">Question 3:&nbsp;</div>\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                    We will integrate implementation and independent verification of the Principles and Criteria as a positive performance measure when assessing supplier performance (Code 4.1).        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-part2-4\">\n      <div class=\"field-label\">Question 4:&nbsp;</div>\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                    Wherever possible, we will promote the spirit of RSPO in our dealings with our vendors, customers and competitors.        </div>\n        </div>\n\
+      </div>\n\
+      </fieldset>\n\
+      <fieldset class=\"fieldgroup group-application\"><legend>Application for membership is made by</legend><div class=\"field field-type-text field-field-name-a\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Name:&nbsp;</div>\n                    Liew An Min        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-text field-field-designation-a\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Designation:&nbsp;</div>\n                    Senior Trader        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-date field-field-applied-date\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Applied Date:&nbsp;</div>\n                    <span class=\"date-display-single\">21/03/2011</span>        </div>\n        </div>\n\
+      </div>\n\
+      </fieldset>\n\
+      <fieldset class=\"fieldgroup group-membership\"><legend>Membership</legend><div class=\"field field-type-text field-field-status\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Status:&nbsp;</div>\n                    Approved        </div>\n        </div>\n\
+      </div>\n\
+      <div class=\"field field-type-date field-field-approved-date\">\n    <div class=\"field-items\">\n            <div class=\"field-item odd\">\n                      <div class=\"field-label-inline-first\">\n              Member Since:&nbsp;</div>\n                    <span class=\"date-display-single\">12/08/2011</span>        </div>\n        </div>\n\
+      </div>\n\
+      </fieldset>\n\
+      </div>\n <div class=\"taxonomy\"></div>\n  <br/><div class=\"links-node\"><ul class=\"links inline\"><li class=\"addthis first\"><span>\n      <a class=\"addthis-button\" href=\"http://www.addthis.com/bookmark.php\"\n        onfocus=\"return addthis_open(this, '', '[URL]', '[TITLE]')\"\n        onmouseover=\"return addthis_open(this, '', '[URL]', '[TITLE]')\"\n        onblur=\"addthis_close()\"\n        onmouseout=\"addthis_close()\"\n        onclick=\"return addthis_sendto()\"><img src=\"http://s9.addthis.com/button1-share.gif\" width=\"110\" height=\"14\" alt=\"share\" class=\"addthisimage\" /></a><script type=\"text/javascript\" src=\"http://s7.addthis.com/js/200/addthis_widget.js\"></script></span></li>\n\
+      <li class=\"print_html\"><a href=\"/?q=print/1993\" title=\"Display a printer-friendly version of this page.\" class=\"print-page\" rel=\"nofollow\">Printer-friendly version</a></li>\n\
+      <li class=\"print_mail last\"><a href=\"/?q=printmail/1993\" title=\"Send this page by e-mail.\" class=\"print-mail\" rel=\"nofollow\">Send to friend</a></li>\n\
+      </ul></div>  <br clear=\"all\"/><hr/>\n\
+      </div>\n\
+      \t\t\t <div id=\"content-bottom\"><div id=\"block-block-2\" class=\"block block-block\">\n  <h2>Submission of Annual Communications of Progress (ACOP)</h2>\n\n  <div class=\"content\">\n    <div class='annualreport_submitbtn'><a href=\"/?q=node/add/annualreport/1993\">Submit Your Annual Report</a></div>  </div>\n\
+      </div>\n\
+      </div><!-- /#content-bottom -->\n \n\n\
+      \t\t</div>\n    </div></div></div>\n\n    \t\t<div id=\"sidebar-right\" class=\"clearfix\">\n\
+      \t\t\t<div id=\"block-block-26\" class=\"block block-block\">\n\n  <div class=\"content\">\n    <p style=\"text-align: center;\"><span style=\"font-size: medium;\"><a href=\"/?q=page/2677\"><strong>View Latest Annual Communication of Progress by Sector</strong></a></span></p>  </div>\n\
+      </div>\n\
+      <div id=\"block-block-6\" class=\"block block-block\">\n  <h2>RSPO Members</h2>\n\n  <div class=\"content\">\n    \n\
+      <table class=\"sidebartbl\" style=\"background-color: #d2ffbb; width: 184px; height: 69px; border: 2px solid #000000;\" border=\"2\" cellpadding=\"1\" frame=\"border\"><tbody><tr style=\"text-align: left;\"><td style=\"border: 1px solid #000000;\"><strong>Ordinary Members:</strong></td><td style=\"border: 1px solid #000000; text-align: right;\"><strong>555</strong> </td></tr> <tr><td style=\"border: 1px solid #000000;\"><strong>Affiliate Members:</strong></td><td style=\"border: 1px solid #000000; text-align: right;\"><strong>98</strong></td></tr> <tr><td style=\"border: 1px solid #000000;\"><strong>Supply Chain Associates:</strong></td><td style=\"border: 1px solid #000000; text-align: right;\"><strong>79</strong> </td></tr></tbody></table><br/><ul><li><a href=\"?q=membersearch\">Search RSPO Members</a></li><li><a href=\"?q=memberstat\">View Members By Type</a></li><li><a href=\"?q=categorystat\">View Members By Category</a></li><li><a href=\"?q=countrystat\">View Members By Country</a></li><li><a href=\"?q=glossarymember\">View Members (alphabetical)</a></li> <li><a href=\"?q=page/13\">Apply for RSPO Membership</a></li>\n\
+      <li><a href=\"?q=page/charts\">Membership Statistics</a></li>\n\
+      <!--<li><a href=\"/?q=page/2430\">View Members' Commitments by Year </a></li>\n\
+      <li><a href=\"/?q=page/2431\">View CPO and Hectares Committed in Growers' Timebound Plans </a></li>\n\
+      <li><a href=\"/?q=page/2677\">View Annual Communication Progress by Sector</a><span class=\"new\">New</span></li>-->\n\n\
+      </ul>  </div>\n\
+      </div>\n\
+      <div id=\"block-block-20\" class=\"block block-block\">\n  <h2>Frequently asked!</h2>\n\n  <div class=\"content\">\n    <p>Read <a href=\"/?q=page/1971\">answers to frequently asked questions</a> about the RSPO.</p>  </div>\n\
+      </div>\n\
+      <div id=\"block-block-7\" class=\"block block-block\">\n  <h2>Videos of and about RSPO</h2>\n\n  <div class=\"content\">\n    <p><object width=\"190\" height=\"135\"><param name=\"movie\" value=\"http://www.youtube.com/v/MNFTOu7IEo0&amp;hl=en_US&amp;fs=1&amp;rel=0\" /><param name=\"allowFullScreen\" value=\"true\" /><param name=\"allowscriptaccess\" value=\"always\" /><embed type=\"application/x-shockwave-flash\" width=\"190\" height=\"135\" src=\"http://www.youtube.com/v/MNFTOu7IEo0&amp;hl=en_US&amp;fs=1&amp;rel=0\" allowscriptaccess=\"always\" allowfullscreen=\"true\"></embed></object></p> <p>Watch a CNBC <a href=\"http://www.youtube.com/watch?v=MNFTOu7IEo0\" target=\"_blank\">news broadcast</a> on the RSPO and <a href=\"?q=page/videos\"> click here</a> for more</p>  </div>\n\
+      </div>\n\
+      \t\t</div>\n        <br clear=\"all\"/>\n    <span class=\"clear\"></span>\n\
+      </div>\n\
+      <br clear=\"all\"/>\n\
+      <div id=\"footer\">\n\
+      \t\tCopyright \xC2\xA9 2009 Roundtable on Sustainable Palm Oil. All rights reserved.  <br />\r\n\
+      <img alt=\"Home\" src=\"/sites/all/themes/rspo/logo.png\"><br/>\n\
+      \t<script type=\"text/javascript\">\n\
+      <!--//--><![CDATA[//><!--\n\
+      var _gaq = _gaq || [];_gaq.push([\"_setAccount\", \"UA-5863344-4\"]);_gaq.push([\"_trackPageview\"]);(function() {var ga = document.createElement(\"script\");ga.type = \"text/javascript\";ga.async = true;ga.src = \"/sites/default/files/googleanalytics/ga.js?R\";var s = document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(ga, s);})();\n\
+      //--><!]]>\n\
+      </script>\n\
+      </div>\n\n\
+      </body>\n\
+      </html>\n"
+    http_version: "1.1"
