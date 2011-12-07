@@ -6,6 +6,8 @@ require 'vcr'
 require 'webmock/rspec'
 require 'bourne'
 require 'time'
+require 'scraperwiki'
+require './scraperwiki-dev'
 
 VCR.config do |c|
 	c.cassette_library_dir = 'fixtures/vcr_cassettes'
@@ -16,3 +18,4 @@ RSpec.configure do |c|
   c.extend VCR::RSpec::Macros
 	c.mock_framework = :mocha
 end
+
