@@ -73,7 +73,7 @@ class RSPOMembersScraper
 		member['category'] = category_node.text.strip unless category_node.nil?
 		
 		member['member_since'] = doc.search(".field-field-approved-date .date-display-single").first
-		member['member_since'] = Date.parse member['member_since'] unless member['member_since'].nil?
+		member['member_since'] = Date.strptime member['member_since'].text, '%d/%m/%Y' unless member['member_since'].nil?
 		member
 	end
 

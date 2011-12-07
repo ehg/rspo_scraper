@@ -103,7 +103,7 @@ describe RSPOMembersScraper do
 			it "extracts when they have been a member since as a date" do
 				@details['member_since'].should_not be_nil
 				@details['member_since'].should be_a_kind_of Date
-				@details['member_since'].should == Date.new(2011,8,12)
+				@details['member_since'].should == Date.strptime('12/08/2011', '%d/%m/%Y')
 			end
 		end
 
