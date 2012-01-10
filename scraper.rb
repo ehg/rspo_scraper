@@ -30,7 +30,7 @@ class RSPOMembersScraper
 	end
 
 	def self.members_list_next_link(html)
-		doc = Nokogiri::HTML html
+		doc = Nokogiri::HTML(html, nil, 'utf-8')
 	 	link = doc.search(".pager-next a").first
 		return nil if link.nil?
 		link.attr(:href)
@@ -38,7 +38,7 @@ class RSPOMembersScraper
 
 	def self.extract_members(html)
 		links = []
-		doc = Nokogiri::HTML html
+		doc = Nokogiri::HTML(html, nil, 'utf-8')
 		member_rows = doc.search "table.views-table tbody tr"
 		member_rows.each do |row|
 			link = row.search(".views-field-field-name-value a").first
@@ -54,7 +54,7 @@ class RSPOMembersScraper
 
 	def self.extract_member_details(html)
 		member = {}
-		doc = Nokogiri::HTML html
+		doc = Nokogiri::HTML(html, nil, 'utf-8')
 		member['name'] = doc.search("div#main-inner2 div.inner h1.title").first
 		member['name'] = member['name'].text unless member['name'].nil?
 
